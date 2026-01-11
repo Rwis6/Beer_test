@@ -1,0 +1,81 @@
+{
+  "malts": [
+    {
+      "name": "Pilsner",
+      "ebc": 3,
+      "yield": 80
+    },
+    {
+      "name": "Cara Blond",
+      "ebc": 30,
+      "yield": 78
+    }
+  ],
+  "recipes": [
+    {
+      "id": 1768150385480,
+      "name": "Blonde",
+      "batchSize": 10,
+      "breweryEfficiency": 70,
+      "malts": [
+        {
+          "ingredient": "Pilsner",
+          "weight": 1.3,
+          "ebc": 3,
+          "yield": 80
+        },
+        {
+          "ingredient": "Cara blond",
+          "weight": 0.4,
+          "ebc": 20,
+          "yield": 80,
+          "isCustom": true
+        },
+        {
+          "ingredient": "Wheat malt",
+          "weight": 0.2,
+          "ebc": 3.5,
+          "yield": 80,
+          "isCustom": true
+        }
+      ],
+      "hops": [
+        {
+          "ingredient": "Barbe rouge",
+          "weight": 8,
+          "time": 60,
+          "aa": 8.5,
+          "phase": "ébullition",
+          "isCustom": true
+        },
+        {
+          "ingredient": "Barbe rouge",
+          "weight": 12,
+          "time": 5,
+          "aa": 8.5,
+          "phase": "ébullition",
+          "isCustom": true
+        }
+      ],
+      "misc": [
+        {
+          "ingredient": "Sucre blanc",
+          "weight": 200,
+          "time": 10,
+          "type": "sucre",
+          "phase": "ébullition",
+          "isCustom": false,
+          "ebc": 15
+        }
+      ],
+      "yeast": {
+        "ingredient": "",
+        "attenuation": 75,
+        "temp": "15-25°C",
+        "isCustom": true
+      },
+      "createdAt": "2026-01-11T16:53:05.480Z",
+      "updatedAt": "2026-01-11T16:58:56.714Z"
+    }
+  ]
+}
