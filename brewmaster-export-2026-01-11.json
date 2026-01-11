@@ -1,0 +1,552 @@
+{
+  "malts": [
+    {
+      "name": "Pale Ale",
+      "ebc": 5,
+      "yield": 78
+    },
+    {
+      "name": "Munich",
+      "ebc": 15,
+      "yield": 76
+    },
+    {
+      "name": "Vienna",
+      "ebc": 6,
+      "yield": 77
+    },
+    {
+      "name": "Cara Munich",
+      "ebc": 80,
+      "yield": 73
+    },
+    {
+      "name": "Crystal 60",
+      "ebc": 118,
+      "yield": 72
+    },
+    {
+      "name": "Chocolate",
+      "ebc": 900,
+      "yield": 70
+    },
+    {
+      "name": "Roasted Barley",
+      "ebc": 1300,
+      "yield": 70
+    }
+  ],
+  "hops": [
+    {
+      "name": "Cascade",
+      "aa": 5.5,
+      "type": "aromatique"
+    },
+    {
+      "name": "Centennial",
+      "aa": 10,
+      "type": "amer"
+    },
+    {
+      "name": "Chinook",
+      "aa": 13,
+      "type": "amer"
+    },
+    {
+      "name": "Citra",
+      "aa": 12,
+      "type": "aromatique"
+    },
+    {
+      "name": "Hallertau",
+      "aa": 4,
+      "type": "aromatique"
+    },
+    {
+      "name": "Saaz",
+      "aa": 3.5,
+      "type": "aromatique"
+    },
+    {
+      "name": "Magnum",
+      "aa": 14,
+      "type": "amer"
+    }
+  ],
+  "yeasts": [
+    {
+      "name": "US-05 (Safale)",
+      "attenuation": 81,
+      "temp": "15-24°C"
+    },
+    {
+      "name": "S-04 (Safale)",
+      "attenuation": 75,
+      "temp": "15-20°C"
+    },
+    {
+      "name": "WB-06 (Safale)",
+      "attenuation": 86,
+      "temp": "18-24°C"
+    },
+    {
+      "name": "Belle Saison",
+      "attenuation": 86,
+      "temp": "15-35°C"
+    },
+    {
+      "name": "Nottingham",
+      "attenuation": 79,
+      "temp": "14-21°C"
+    }
+  ],
+  "misc": [
+    {
+      "name": "Sucre blanc",
+      "type": "sucre"
+    },
+    {
+      "name": "Sucre candi",
+      "type": "sucre"
+    },
+    {
+      "name": "Miel",
+      "type": "sucre"
+    },
+    {
+      "name": "Gingembre",
+      "type": "épice"
+    },
+    {
+      "name": "Coriandre",
+      "type": "épice"
+    },
+    {
+      "name": "Cannelle",
+      "type": "épice"
+    },
+    {
+      "name": "Zeste d'orange",
+      "type": "arôme"
+    },
+    {
+      "name": "Irish Moss",
+      "type": "clarifiant"
+    }
+  ],
+  "bjcpStyles": {
+    "18A": {
+      "name": "Blonde Ale",
+      "og": [
+        1.038,
+        1.054
+      ],
+      "fg": [
+        1.008,
+        1.013
+      ],
+      "abv": [
+        3.8,
+        5.5
+      ],
+      "ibu": [
+        15,
+        28
+      ],
+      "ebc": [
+        5.9,
+        11.8
+      ]
+    },
+    "1B": {
+      "name": "American Lager",
+      "og": [
+        1.04,
+        1.05
+      ],
+      "fg": [
+        1.004,
+        1.01
+      ],
+      "abv": [
+        4.2,
+        5.3
+      ],
+      "ibu": [
+        8,
+        18
+      ],
+      "ebc": [
+        3.9,
+        7.9
+      ]
+    },
+    "5B": {
+      "name": "Kölsch",
+      "og": [
+        1.044,
+        1.05
+      ],
+      "fg": [
+        1.007,
+        1.011
+      ],
+      "abv": [
+        4.4,
+        5.2
+      ],
+      "ibu": [
+        18,
+        30
+      ],
+      "ebc": [
+        7.4,
+        11
+      ]
+    },
+    "18B": {
+      "name": "American Pale Ale",
+      "og": [
+        1.045,
+        1.06
+      ],
+      "fg": [
+        1.01,
+        1.015
+      ],
+      "abv": [
+        4.5,
+        6.2
+      ],
+      "ibu": [
+        30,
+        50
+      ],
+      "ebc": [
+        9.8,
+        27.6
+      ]
+    },
+    "19A": {
+      "name": "American Amber Ale",
+      "og": [
+        1.045,
+        1.06
+      ],
+      "fg": [
+        1.01,
+        1.015
+      ],
+      "abv": [
+        4.5,
+        6.2
+      ],
+      "ibu": [
+        25,
+        40
+      ],
+      "ebc": [
+        19.7,
+        33.9
+      ]
+    },
+    "19B": {
+      "name": "American Brown Ale",
+      "og": [
+        1.045,
+        1.06
+      ],
+      "fg": [
+        1.01,
+        1.016
+      ],
+      "abv": [
+        4.3,
+        6.2
+      ],
+      "ibu": [
+        20,
+        30
+      ],
+      "ebc": [
+        35.4,
+        55.1
+      ]
+    },
+    "10A": {
+      "name": "Weissbier",
+      "og": [
+        1.044,
+        1.052
+      ],
+      "fg": [
+        1.01,
+        1.014
+      ],
+      "abv": [
+        4.3,
+        5.6
+      ],
+      "ibu": [
+        8,
+        15
+      ],
+      "ebc": [
+        3.9,
+        15.7
+      ]
+    },
+    "5D": {
+      "name": "German Pils",
+      "og": [
+        1.044,
+        1.05
+      ],
+      "fg": [
+        1.008,
+        1.013
+      ],
+      "abv": [
+        4.4,
+        5.2
+      ],
+      "ibu": [
+        22,
+        40
+      ],
+      "ebc": [
+        3.9,
+        9.8
+      ]
+    },
+    "7C": {
+      "name": "Kellerbier",
+      "og": [
+        1.045,
+        1.051
+      ],
+      "fg": [
+        1.008,
+        1.012
+      ],
+      "abv": [
+        4.7,
+        5.4
+      ],
+      "ibu": [
+        20,
+        35
+      ],
+      "ebc": [
+        4.9,
+        14.8
+      ]
+    },
+    "21A": {
+      "name": "American IPA",
+      "og": [
+        1.056,
+        1.07
+      ],
+      "fg": [
+        1.008,
+        1.014
+      ],
+      "abv": [
+        5.5,
+        7.5
+      ],
+      "ibu": [
+        40,
+        70
+      ],
+      "ebc": [
+        11.8,
+        27.6
+      ]
+    },
+    "20A": {
+      "name": "American Porter",
+      "og": [
+        1.05,
+        1.07
+      ],
+      "fg": [
+        1.012,
+        1.018
+      ],
+      "abv": [
+        4.8,
+        6.5
+      ],
+      "ibu": [
+        25,
+        50
+      ],
+      "ebc": [
+        44.3,
+        78.7
+      ]
+    },
+    "13B": {
+      "name": "British Brown Ale",
+      "og": [
+        1.04,
+        1.052
+      ],
+      "fg": [
+        1.008,
+        1.013
+      ],
+      "abv": [
+        4.2,
+        5.4
+      ],
+      "ibu": [
+        20,
+        30
+      ],
+      "ebc": [
+        24,
+        69.3
+      ]
+    },
+    "15B": {
+      "name": "Irish Stout",
+      "og": [
+        1.036,
+        1.044
+      ],
+      "fg": [
+        1.007,
+        1.011
+      ],
+      "abv": [
+        4,
+        4.5
+      ],
+      "ibu": [
+        25,
+        45
+      ],
+      "ebc": [
+        49.3,
+        78.7
+      ]
+    },
+    "24B": {
+      "name": "Belgian Dubbel",
+      "og": [
+        1.062,
+        1.075
+      ],
+      "fg": [
+        1.008,
+        1.018
+      ],
+      "abv": [
+        6,
+        7.6
+      ],
+      "ibu": [
+        15,
+        25
+      ],
+      "ebc": [
+        19.7,
+        55.1
+      ]
+    },
+    "25B": {
+      "name": "Saison",
+      "og": [
+        1.048,
+        1.065
+      ],
+      "fg": [
+        1.002,
+        1.012
+      ],
+      "abv": [
+        5,
+        7
+      ],
+      "ibu": [
+        20,
+        35
+      ],
+      "ebc": [
+        9.8,
+        27.6
+      ]
+    }
+  },
+  "recipes": [
+    {
+      "id": 1768150385480,
+      "name": "Blonde",
+      "batchSize": 10,
+      "breweryEfficiency": 70,
+      "malts": [
+        {
+          "ingredient": "Cara Blond",
+          "weight": 1.3,
+          "ebc": 30,
+          "yield": 78,
+          "isCustom": false
+        },
+        {
+          "ingredient": "Cara blond",
+          "weight": 0.4,
+          "ebc": 20,
+          "yield": 80,
+          "isCustom": true
+        },
+        {
+          "ingredient": "Wheat malt",
+          "weight": 0.2,
+          "ebc": 3.5,
+          "yield": 80,
+          "isCustom": true
+        }
+      ],
+      "hops": [
+        {
+          "ingredient": "Barbe rouge",
+          "weight": 8,
+          "time": 60,
+          "aa": 8.5,
+          "phase": "ébullition",
+          "isCustom": true
+        },
+        {
+          "ingredient": "Barbe rouge",
+          "weight": 12,
+          "time": 5,
+          "aa": 8.5,
+          "phase": "ébullition",
+          "isCustom": true
+        }
+      ],
+      "misc": [
+        {
+          "ingredient": "Sucre blanc",
+          "weight": 200,
+          "time": 10,
+          "type": "sucre",
+          "phase": "ébullition",
+          "isCustom": false,
+          "ebc": 15
+        }
+      ],
+      "yeast": {
+        "ingredient": "",
+        "attenuation": 75,
+        "temp": "15-25°C",
+        "isCustom": true
+      },
+      "createdAt": "2026-01-11T16:53:05.480Z",
+      "updatedAt": "2026-01-11T20:21:04.443Z"
+    }
+  ]
+}
